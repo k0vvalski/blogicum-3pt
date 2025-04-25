@@ -1,1 +1,47 @@
-# blogicum-3pt
+# Блогикум (3 часть).
+## Блогикум (1 часть) <- https://github.com/k0vvalski/blogicum-1pt;
+## Блогикум (2 часть) <- https://github.com/k0vvalski/blogicum-2pt;
+## Блогикум (3 часть) <- этот репозиторий;
+
+## Технологии:
+```
+Python 3.11.0
+Django 3.2.16
+SQLite
+```
+## Установка (macOS):
+### 1. Клонирование репозитория
+Откройте терминал и выполните команду: 
+```
+  git clone https://github.com/k0vvalski/blogicum-3pt.git
+```
+### 2. Переход в директорию проекта:
+После клонирования перейдите в директорию проекта: 
+```
+  cd blogicum-3pt
+```
+### 3. Создание и активация виртуального окружения:
+```
+  python3.11 -m venv venv  
+  source venv/bin/activate
+```
+### 4. Обновите pip:  
+```
+  python3.11 -m pip install --upgrade pip
+```
+### 5. Установка зависимостей:
+  pip install -r requirements.txt  
+### 6. Перейти в папку проекта и запустить его:
+```
+  ./manage.py migrate
+  ./manage.py loaddata db.json
+  ./manage.py runserver
+```
+### 7. Перейти на локальный сервер:
+```
+  http://127.0.0.1:8000/
+```
+### 8. Перейти в панель администратора:
+```
+  http://127.0.0.1:8000/admin/  
+```
