@@ -32,12 +32,14 @@ SQLite
   python3.11 -m pip install --upgrade pip
 ```
 ### 5. Установка зависимостей:
-  pip install -r requirements.txt  
+```
+  pip install -r requirements.txt
+```
 ### 6. Перейти в папку проекта и запустить его:
 ```
-  ./manage.py migrate
-  ./manage.py loaddata db.json
-  ./manage.py runserver
+  python3.11 blogicum/manage.py migrate
+  python3.11 blogicum/manage.py loaddata blogicum/db.json
+  python3.11 blogicum/manage.py runserver
 ```
 ### 7. Перейти на локальный сервер:
 ```
